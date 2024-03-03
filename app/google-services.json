@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "325108108161",
+    "project_id": "rideshare-898ed",
+    "storage_bucket": "rideshare-898ed.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:325108108161:android:aa266b2c2d4a84a7bdb680",
+        "android_client_info": {
+          "package_name": "com.example.rideshare"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "325108108161-rt61ef2kqp7fvptacsh79675vvmf7mcu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBNogdmPoSH6_g1xaOdGz6Ci9_WHIikRNY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "325108108161-at86i0h9riqskskh9pi73ohmmsaodok3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

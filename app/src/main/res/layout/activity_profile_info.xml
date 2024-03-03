@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".ProfileInfo">
+
+
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:foregroundGravity="center_vertical">
+
+                <LinearLayout
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/textView41"
+                            android:layout_width="300dp"
+                            android:layout_height="35dp"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="125dp"
+                            android:text="Date Of Birth:"
+                            android:textColor="@color/black"
+                            android:textSize="18sp" />
+
+                        <EditText
+                            android:id="@+id/dob"
+                            android:layout_width="300dp"
+                            android:layout_height="50dp"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="5dp"
+                            android:background="@drawable/edittext_bkg"
+                            android:drawableLeft="@drawable/baseline_calendar_month_24"
+                            android:drawablePadding="8dp"
+                            android:hint="Date Of Birth"
+                            android:padding="8dp" />
+
+                        <TextView
+                            android:id="@+id/textView81"
+                            android:layout_width="300dp"
+                            android:layout_height="35dp"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="10dp"
+                            android:text="Vehicle Type:"
+                            android:textColor="@color/black"
+                            android:textSize="18sp" />
+
+                        <EditText
+                            android:id="@+id/vehicletype"
+                            android:layout_width="300dp"
+                            android:layout_height="50dp"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="5dp"
+                            android:background="@drawable/edittext_bkg"
+                            android:drawablePadding="8dp"
+                            android:hint="Enter Vehicle Type"
+                            android:padding="8dp" />
+
+                        <TextView
+                            android:id="@+id/textView91"
+                            android:layout_width="300dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="10dp"
+                            android:gravity="bottom"
+                            android:text="Vehicle Number:"
+                            android:textColor="@color/black"
+                            android:textSize="18sp" />
+
+                        <EditText
+                            android:id="@+id/vehiclenumber"
+                            android:layout_width="300dp"
+                            android:layout_height="50dp"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="5dp"
+                            android:background="@drawable/edittext_bkg"
+                            android:drawablePadding="8dp"
+                            android:hint="Vehicle Number"
+                            android:padding="8dp" />
+
+                        <TextView
+                            android:id="@+id/textView101"
+                            android:layout_width="300dp"
+                            android:layout_height="35dp"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="10dp"
+                            android:text="Driving License Number:"
+                            android:textColor="@color/black"
+                            android:textSize="18sp" />
+
+                        <EditText
+                            android:id="@+id/dln"
+                            android:layout_width="300dp"
+                            android:layout_height="50dp"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="5dp"
+                            android:background="@drawable/edittext_bkg"
+                            android:drawablePadding="8dp"
+                            android:hint="Driving License Number"
+                            android:padding="8dp" />
+
+                        <Button
+                            android:id="@+id/saving"
+                            android:layout_width="270dp"
+                            android:layout_height="50dp"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="15dp"
+                            android:text="Save"
+                            android:background="@drawable/edittext_bkg"
+                           android:backgroundTint="@color/lavender"
+                            android:textColor="@color/white"
+                            android:textSize="18sp"
+                            app:cornerRadius="30dp" />
+
+                </LinearLayout>
+        </ScrollView>
+</LinearLayout>

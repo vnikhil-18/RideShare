@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">RideShare</string>
+    <string name="default_web_client_id">325108108161-rt61ef2kqp7fvptacsh79675vvmf7mcu.apps.googleusercontent.com</string>
+    <string name="rideshare">RideShare</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="home">Home</string>
+    <string name="logout">Logout</string>
+    <string name="profile">Profile</string>
+    <string name="vehicle">Vehicle</string>
+        <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

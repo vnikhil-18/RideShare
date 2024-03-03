@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:layout_gravity="center"
+android:orientation="vertical"
+tools:context=".Login">
+
+
+    <TextView
+        android:id="@+id/textview1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="60dp"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:gravity="center"
+        android:rotationY="0"
+        android:text="RideShare"
+        android:textColor="#673AB7"
+        android:textSize="50sp"
+        android:textStyle="italic" />
+
+<com.airbnb.lottie.LottieAnimationView
+    android:layout_width="match_parent"
+    android:layout_height="450dp"
+    app:lottie_autoPlay="true"
+    app:lottie_loop="true"
+    app:lottie_rawRes="@raw/ride_share" />
+
+<TextView
+    android:id="@+id/textview2"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:layout_marginTop="5dp"
+    android:baselineAligned="true"
+    android:fontFamily="sans-serif-condensed-medium"
+    android:gravity="center"
+    android:text="Your Journey, Your Choices"
+    android:textColor="#E91E63"
+    android:textSize="25sp"
+    android:textStyle="italic" />
+
+
+</LinearLayout>
